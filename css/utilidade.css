@@ -32,44 +32,49 @@
   color: var(--a4);
 }
 .cor-ac1 {
-  color: var(--ac1);
+  color: var(--ac-1);
 }
 .cor-ac2 {
-  color: var(--ac2);
+  color: var(--ac-2);
 }
 .cor-ac3 {
-  color: var(--ac3);
+  color: var(--ac-3);
 }
 .cor-ac4 {
-  color: var(--ac4);
+  color: var(--ac-4);
 }
 .cor-ac5 {
-  color: var(--ac5);
+  color: var(--ac-5);
 }
 .cor-ac6 {
-  color: var(--ac6);
+  color: var(--ac-6);
 }
 .cor-ac7 {
-  color: var(--ac7);
+  color: var(--ac-7);
 }
 .cor-ac8 {
-  color: var(--ac8);
+  color: var(--ac-8);
 }
 .cor-ac9 {
-  color: var(--ac9);
+  color: var(--ac-9);
 }
 .cor-ac10 {
-  color: var(--ac10);
+  color: var(--ac-10);
 }
 .cor-ac11 {
-  color: var(--ac11);
+  color: var(--ac-11);
 }
 .cor-ac12 {
-  color: var(--ac12);
+  color: var(--ac-12);
 }
 .cor-grad{
   color: linear-gradient(to bottom, #FAFF00, #FFF500);
 }
+
+.atual{
+  color: var(--a1);
+}
+
 /* cores-fim */
 
 /* tipografia-inicio */
@@ -77,6 +82,12 @@
 
 .font-1-xl-b{
   font: 700 4rem/1.125 'Urbanist', sans-serif;
+}
+.font-1-m-b{
+  font: 700 2rem/1.125 'Urbanist', sans-serif;
+}
+.font-1-s-b{
+  font: 700 1.25rem/1.3 'Urbanist', sans-serif;
 }
 .font-2-s-b{
   font: .5rem/1 'Urbanist', sans-serif;
