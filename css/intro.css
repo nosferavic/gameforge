@@ -5,50 +5,42 @@
   flex-wrap: wrap;
   margin: 0px 10px;
 }
-
 .introducao h1 {
   max-width: 16ch;
 }
 .introducao p {
   max-width: 40ch;
 }
-
 .botao-start {
-  background: linear-gradient(to bottom, #faff00, #fff500);
+  background: linear-gradient(to bottom, var(--a1), var(--a5));
   color: var(--a4);
   padding: 20px 60px;
   text-transform: uppercase;
   align-self: end;
   margin-top: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
-
 .text-intro{
   margin: 10px;
 }
-
-
 .intro-bg {
   padding: 120px 0px;
   box-shadow: inset 600px 0 0 var(--ac-11);
   background: linear-gradient(to bottom, var(--a1), var(--a5));
 }
-
 .intro {
   display: flex;
   gap: 36px;
   align-items: center;
 }
-
 .intro p {
   margin-top: 12px;
 }
-
 @media (max-width: 1600px){
   .intro-bg{
     box-shadow: inset 400px 0 0 var(--ac-11);
   }
 }
-
 @media (max-width: 1120px) {
   .intro {
 flex-direction: column;
@@ -58,11 +50,9 @@ flex-direction: column;
     background: var(--a1);
     box-shadow: none;
   }
-
   .video{
     order: 2;
   }
-
   .video video{
     max-width: calc(100% - 20px);
   }
@@ -73,7 +63,6 @@ flex-direction: column;
   .introducao {
     padding: 60px 0px;
   }
-
   .introducao h1 {
     font-size: 2rem;
   }
@@ -89,13 +78,10 @@ flex-direction: column;
 .intro{
   gap: 12px;
 }
-
   .text-intro h1{
     font-size: 2rem;
   }
   .text-intro p{
     font-size: 1rem;
   }
-
-
 }
