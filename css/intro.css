@@ -29,7 +29,8 @@
 
 .intro-bg {
   padding: 120px 0px;
-  background: linear-gradient(to right, var(--ac-11) 30%, var(--a1) 0%);
+  box-shadow: inset 600px 0 0 var(--ac-11);
+  background: linear-gradient(to bottom, var(--a1), var(--a5));
 }
 
 .intro {
@@ -42,6 +43,12 @@
   margin-top: 12px;
 }
 
+@media (max-width: 1600px){
+  .intro-bg{
+    box-shadow: inset 400px 0 0 var(--ac-11);
+  }
+}
+
 @media (max-width: 1120px) {
   .intro {
 flex-direction: column;
@@ -49,6 +56,7 @@ flex-direction: column;
   .intro-bg{
     padding: 60px 0px;
     background: var(--a1);
+    box-shadow: none;
   }
 
   .video{
