@@ -22,8 +22,72 @@
   margin-top: 20px;
 }
 
-@media (max-width: 600px){
+.text-intro{
+  margin: 10px;
+}
+
+
+.intro-bg {
+  padding: 120px 0px;
+  background: linear-gradient(to right, var(--ac-11) 30%, var(--a1) 0%);
+}
+
+.intro {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+}
+
+.intro p {
+  margin-top: 12px;
+}
+
+@media (max-width: 1120px) {
+  .intro {
+flex-direction: column;
+  }
+  .intro-bg{
+    padding: 60px 0px;
+    background: var(--a1);
+  }
+
+  .video{
+    order: 2;
+  }
+
+  .video video{
+    max-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 600px) {
   .introducao {
     padding: 60px 0px;
   }
+
+  .introducao h1 {
+    font-size: 2rem;
+  }
+  .introducao p {
+   font-size: 1rem;
+  }
+  .botao-start {
+    font-size: 1rem;
+    margin-top: 10px;
+    padding: 10px 30px;
+  }
+
+.intro{
+  gap: 12px;
+}
+
+  .text-intro h1{
+    font-size: 2rem;
+  }
+  .text-intro p{
+    font-size: 1rem;
+  }
+
+
 }

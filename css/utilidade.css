@@ -83,6 +83,9 @@
 .font-1-xl-b{
   font: 700 4rem/1.125 'Urbanist', sans-serif;
 }
+.font-1-l-b{
+  font: 700 3rem/1.125 'Urbanist', sans-serif;
+}
 .font-1-m-b{
   font: 700 2rem/1.125 'Urbanist', sans-serif;
 }
@@ -100,6 +103,9 @@
 }
 .font-2-m{
   font: 500 1.75rem/1.3 'Inter', sans-serif;
+}
+.font-2-sb{
+  font: 600 1.75rem/1.3 'Inter', sans-serif;
 }
 .font-2-s{
   font: 400 1.75rem/1.3 'Inter', sans-serif;

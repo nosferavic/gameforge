@@ -1,18 +1,28 @@
-@import url('./utilidade.css');
-@import url('./header.css');
-@import url('/css/content.css');
-@import url('/css/intro.css');
+@import url("./utilidade.css");
+@import url("./header.css");
+@import url("/css/content.css");
+@import url("/css/intro.css");
 
-
-body, h1, a, p, ul, li{
+body,
+h1,
+a,
+p,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
+}
+
+video {
+  margin: 10px;
+  max-width: 660px;
+  height: auto;
 }
