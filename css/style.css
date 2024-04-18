@@ -1,5 +1,8 @@
 @import url('./utilidade.css');
 @import url('./header.css');
+@import url('/css/content.css');
+@import url('/css/intro.css');
+
 
 body, h1, a, p, ul, li{
   margin: 0;

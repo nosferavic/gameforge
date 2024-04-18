@@ -1,0 +1,29 @@
+.introducao {
+  padding: 120px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px 10px;
+}
+
+.introducao h1 {
+  max-width: 16ch;
+}
+.introducao p {
+  max-width: 40ch;
+}
+
+.botao-start {
+  background: linear-gradient(to bottom, #faff00, #fff500);
+  color: var(--a4);
+  padding: 20px 60px;
+  text-transform: uppercase;
+  align-self: end;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px){
+  .introducao {
+    padding: 60px 0px;
+  }
+}

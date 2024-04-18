@@ -1,0 +1,7 @@
+.content-bg{
+  background: var(--ac-11);
+}
+.content{
+  max-width: 1400px;
+  margin: 0 auto;
+}
