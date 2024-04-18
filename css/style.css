@@ -1,7 +1,7 @@
-@import url("./utilidade.css");
-@import url("./header.css");
-@import url("./content.css");
-@import url("./introduc.css");
+@import url("../css/utilidade.css");
+@import url("../css//header.css");
+@import url("../css/content.css");
+@import url("../css/introduc.css");
 
 body,
 h1,
