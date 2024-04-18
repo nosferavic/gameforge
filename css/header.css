@@ -9,6 +9,7 @@
   max-width: 1400px;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .menu {
