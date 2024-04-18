@@ -13,7 +13,6 @@
 }
 .botao-start {
   background: linear-gradient(to bottom, var(--a1), var(--a5));
-  color: var(--a4);
   padding: 20px 60px;
   text-transform: uppercase;
   align-self: end;
