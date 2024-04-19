@@ -1,15 +1,21 @@
 .planos {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 36px;
   margin-top: 60px;
+}
+
+#planos h1{
+  margin: 0 10px;
 }
 
 .plan-card {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 28px;
-  padding: 20px 100px 80px 40px;
+ padding: 30px 40px 40px 30px;
   background: var(--ac-1);
 }
 

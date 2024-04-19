@@ -84,6 +84,12 @@
 /* tipografia-inicio */
 
 
+.font-1-xl-b-i-jam{
+  font: italic 900 4rem/1.125 'Urbanist', sans-serif;
+}
+.font-1-xl-i-jam{
+  font: italic 700 4rem/1.125 'Urbanist', sans-serif;
+}
 .font-1-xl-b{
   font: 700 4rem/1.125 'Urbanist', sans-serif;
 }
@@ -104,6 +110,9 @@
 }
 .font-2-m-button{
   font: 700 2.25rem/1.3 'Inter', sans-serif;
+}
+.font-2-m-enfant{
+  font: 700 1.75rem/1.3 'Inter', sans-serif;
 }
 .font-2-m{
   font: 500 1.75rem/1.3 'Inter', sans-serif;

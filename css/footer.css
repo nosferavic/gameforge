@@ -1,0 +1,22 @@
+.footer-bg{
+  background: #000;
+}
+
+.footer{
+  padding: 40px 40px 26px 40px;
+}
+
+.footer-flex{
+  display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+
+.footer-flex div li{
+  margin-bottom: 8px;
+}
+
+.footer a:hover{
+ color: var(--a1);
+ transition: .3s;
+}

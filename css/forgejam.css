@@ -1,0 +1,47 @@
+.forgejam {
+  margin-top: 100px;
+}
+
+.forgejam h1 {
+  padding-top: 40px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.forgejam-bg {
+  background: var(--ac-12);
+}
+
+.forgejam-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 0 10px;
+}
+
+.jam-text {
+max-width: 90ch;
+}
+.jam-text p {
+  margin-bottom: 20px;
+}
+
+.jam-img {
+  max-width: 560px;
+  width: 100%; 
+}
+
+.jam-img img {
+  width: 100%;
+  max-width: 560px;
+  height: auto; 
+  display: block;
+}
+
+
+@media(max-width:1000px){
+  .forgejam-content{
+    flex-direction: column;
+  }
+}
