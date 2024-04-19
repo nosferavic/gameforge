@@ -19,7 +19,7 @@
   margin-top: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
-.text-intro{
+.text-intro {
   margin: 10px;
 }
 .intro-bg {
@@ -35,38 +35,37 @@
 .intro p {
   margin-top: 12px;
 }
-@media (max-width: 1600px){
-  .intro-bg{
+@media (max-width: 1600px) {
+  .intro-bg {
     box-shadow: inset 400px 0 0 var(--ac-11);
   }
 }
 @media (max-width: 1120px) {
   .intro {
-flex-direction: column;
+    flex-direction: column;
   }
-  .intro-bg{
+  .intro-bg {
     padding: 60px 0px;
     background: var(--a1);
     box-shadow: none;
   }
-  .video{
+  .video {
     order: 2;
   }
-  .video video{
+  .video video {
     max-width: calc(100% - 20px);
   }
 }
 
-
 @media (max-width: 600px) {
   .introducao {
-    padding: 60px 0px;
+    padding: 120px 0px 60px 0px;
   }
   .introducao h1 {
     font-size: 2rem;
   }
   .introducao p {
-   font-size: 1rem;
+    font-size: 1rem;
   }
   .botao-start {
     font-size: 1rem;
@@ -74,13 +73,13 @@ flex-direction: column;
     padding: 10px 30px;
   }
 
-.intro{
-  gap: 12px;
-}
-  .text-intro h1{
+  .intro {
+    gap: 12px;
+  }
+  .text-intro h1 {
     font-size: 2rem;
   }
-  .text-intro p{
+  .text-intro p {
     font-size: 1rem;
   }
 }

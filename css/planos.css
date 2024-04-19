@@ -1,0 +1,26 @@
+.planos {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  margin-top: 60px;
+}
+
+.plan-card {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 20px 100px 80px 40px;
+  background: var(--ac-1);
+}
+
+.plan-card li {
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.plan-card.pro {
+  background: var(--ac-12);
+}
+
