@@ -10,6 +10,7 @@
 
 .forgejam-bg {
   background: var(--ac-12);
+  box-shadow: inset 0 -100px 0 black;
 }
 
 .forgejam-content {
@@ -23,8 +24,10 @@
 .jam-text {
 max-width: 90ch;
 }
-.jam-text p {
+.jam-text p, .jam-text strong, .jam-text span {
+  font-size: 1.25rem;
   margin-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .jam-img {
@@ -38,7 +41,6 @@ max-width: 90ch;
   height: auto; 
   display: block;
 }
-
 
 @media(max-width:1000px){
   .forgejam-content{
