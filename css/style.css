@@ -7,6 +7,10 @@
 @import url("../css/forgejam.css");
 @import url("../css/footer.css");
 
+html{
+  scroll-behavior: smooth;
+}
+
 body,
 h1,
 a,
