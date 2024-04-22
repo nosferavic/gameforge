@@ -1,6 +1,4 @@
-.forgejam {
-  margin-top: 100px;
-}
+
 
 .forgejam h1 {
   padding-top: 40px;
@@ -44,13 +42,9 @@ max-width: 90ch;
 
 @media(max-width:1000px){
 
-  .forgejam {
-    margin-top: 60px;
-  }
   .forgejam-content{
     flex-direction: column;
     gap: 20px;
   }
 
-  
 }

@@ -6,6 +6,11 @@
   margin-top: 60px;
 }
 
+.planos-bg {
+  padding-bottom: 120px;
+  background: linear-gradient(to bottom, var(--a1), var(--a5));
+}
+
 #planos h1{
   margin: 0 10px;
 }
@@ -29,4 +34,8 @@
 .plan-card.pro {
   background: var(--ac-12);
 }
-
+@media(max-width:750px){
+.planos-bg{
+  padding-top: 60px;
+}
+}
