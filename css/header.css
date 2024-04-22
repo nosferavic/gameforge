@@ -7,6 +7,7 @@
 .header-bg {
   background: var(--ac-10);
   padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
 }
 
 .header {
