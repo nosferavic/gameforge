@@ -3,20 +3,37 @@
 }
 
 .footer{
-  padding: 40px 40px 26px 40px;
+  padding: 40px 40px 24px 40px;
 }
 
 .footer-flex{
   display: flex;
+  align-items:baseline;
  justify-content: space-between;
  flex-wrap: wrap;
 }
+
+
 
 .footer-flex div li{
   margin-bottom: 8px;
 }
 
+.footer-flex div:last-child{
+  margin-bottom: 14px;
+}
+
 .footer a:hover{
  color: var(--a1);
  transition: .3s;
+}
+
+@media (max-width: 750px){
+  .footer h1{
+    font-size: 2.5rem;
+  }
+
+  .footer-flex{
+    flex-direction: column;
+  }
 }
