@@ -4,7 +4,7 @@ Hoje em dia o que mais se tem na internet são cursos de desenvolvimento, então
 <img src="./assets/preview.jpg" alt="">
 
 ## 🔥  Introdução
-A **GameForge** é um curso online fictício de desenvolvimento de games e arte, criado para um projeto pessoal. Este projeto consiste em uma página estatica para a apresentação de um produto, que nesse caso, é um curso. A GameForge foi projetada do zero, desde sua prototipação em Wireframe e sua Alta Fidelidade até seu desenvolvimento utilizando de ferramenteas de desenvolvimento WEB.
+A **GameForge** é um curso online fictício de desenvolvimento de games e arte, criado para um projeto pessoal. Este projeto consiste em uma página estática para a apresentação de um produto, que nesse caso, é um curso. A GameForge foi projetada do zero, desde sua prototipação em Wireframe e sua Alta Fidelidade até seu desenvolvimento utilizando de ferramenteas de desenvolvimento WEB.
 
 ## 🎮  Projeto
 O objetivo principal do projeto foi aplicar os conhecimentos em UI/UX Design e Front-End, visando oferecer uma excelente experiência de usuário. Para alcançar esse objetivo:
