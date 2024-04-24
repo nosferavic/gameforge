@@ -9,6 +9,8 @@ A **GameForge** é um curso online fictício de desenvolvimento de games e arte,
 ## 🎮  Projeto
 O projeto teve como principal objetivo a aplicação prática dos conhecimentos em **UI/UX Design** e **Front-End** estudados até então, visando proporcionar uma boa experiência de usuário. E para isso:
 
+Foi criado um pequeno **Sistema de Design**, contendo tipografia, paleta de cores naturais e espaçamentos;
+
 A estruturação do **HTML** foi cuidadosamente planejada de forma semântica, priorizando a acessibilidade para todos os usuários;
 
 O grande diferencial do projeto está em seu estilo, que foi desenvolvido utilizando apenas **CSS** puro. Priorizamos a criação de **classes utilitárias**, o que facilita a manutenção do projeto. Além disso, foram adotadas práticas de **design responsivo** para garantir que o site se adapte perfeitamente a diferentes dispositivos, especialmente em telas menores;
