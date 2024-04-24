@@ -8,7 +8,7 @@
 
 .planos-bg {
   padding-bottom: 120px;
-  background: linear-gradient(to bottom, var(--a1), var(--a5));
+  background: linear-gradient(to bottom, var(--a1), var(--a6));
 }
 
 #planos h1 {
@@ -33,7 +33,13 @@
 }
 
 .plan-card.pro {
-  background: var(--ac-12);
+  background: #0d0d09;
+}
+.plan-card.pro h1{
+  color: #fffff2;
+}
+.plan-card.basic {
+  background: #fffff2;
 }
 @media (max-width: 750px) {
 

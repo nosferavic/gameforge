@@ -12,16 +12,16 @@
   max-width: 40ch;
 }
 .botao-start {
-  background: linear-gradient(to bottom, var(--a1), var(--a5));
+  background: linear-gradient(to bottom, var(--a1), var(--a6));
   padding: 20px 60px;
   text-transform: uppercase;
   align-self: end;
   margin-top: 20px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
 }
 
 .botao-start:hover{
-  background: var(--a5);
+  background: var(--a6);
 }
 
 .text-intro {
@@ -30,7 +30,7 @@
 .intro-bg {
   padding: 120px 0px;
   box-shadow: inset 600px 0 0 var(--ac-11);
-  background: linear-gradient(to bottom, var(--a1), var(--a5));
+  background: linear-gradient(to bottom, var(--a1), var(--a6));
 }
 .intro {
   display: flex;
