@@ -1,6 +1,7 @@
 .planos {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 36px;
   margin-top: 60px;
@@ -11,8 +12,8 @@
   background: linear-gradient(to bottom, var(--a1), var(--a6));
 }
 
-#planos h1 {
-  margin: 0 10px;
+.plan-title>h1 {
+  text-align: center;
 }
 
 .plan-card {
@@ -20,9 +21,11 @@
   flex-direction: column;
   flex-wrap: wrap;
   gap: 28px;
+  height: max-content;
   padding: 30px 40px 40px 30px;
   background: var(--ac-1);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  margin: 0 10px;
 }
 
 .plan-card li {
@@ -35,21 +38,60 @@
 .plan-card.pro {
   background: #0d0d09;
 }
-.plan-card.pro h1{
+.plan-card.pro h1 {
   color: #fffff2;
 }
 .plan-card.basic {
   background: #fffff2;
 }
-@media (max-width: 750px) {
 
-  .plan-card img{
+.botao-valor {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.botao-valor span{
+  position: relative;
+}
+
+.botao-valor span::after{
+  content: '/mês';
+  font-weight: 700;
+  color: rgba(122, 122, 122, 0.5);
+position: absolute;
+top: 1.5rem;
+right: 0;
+}
+
+.basic .botao-select {
+  padding: 0.75rem 2rem;
+  color: #fffff2;
+  background: #1a1a12;
+  font-weight: 700;
+}
+
+.basic .botao-select:hover {
+  background: #0d0d09;
+}
+
+.pro .botao-select {
+  padding: 0.75rem 2rem;
+  background: linear-gradient(to bottom, var(--a1), var(--a6));
+  font-weight: 700;
+}
+
+.pro .botao-select:hover {
+  background: var(--a6);
+}
+@media (max-width: 750px) {
+  .plan-card img {
     width: 2rem;
   }
 
-.plan-card h1{
-  font-size: 1.5rem;
-}
+  .plan-card h1 {
+    font-size: 1.5rem;
+  }
 
   .plan-card li {
     font-size: 1rem;
