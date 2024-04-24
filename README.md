@@ -7,15 +7,13 @@ Hoje em dia o que mais se tem na internet são cursos de desenvolvimento, então
 A **GameForge** é um curso online fictício de desenvolvimento de games e arte, criado para um projeto pessoal. Este projeto consiste em uma página estatica para a apresentação de um produto, que nesse caso, é um curso. A GameForge foi projetada do zero, desde sua prototipação em Wireframe e sua Alta Fidelidade até seu desenvolvimento utilizando de ferramenteas de desenvolvimento WEB.
 
 ## 🎮  Projeto
-O projeto teve como principal objetivo a aplicação prática dos conhecimentos em **UI/UX Design** e **Front-End** estudados até então, visando proporcionar uma boa experiência de usuário. E para isso:
+O objetivo principal do projeto foi aplicar os conhecimentos em UI/UX Design e Front-End, visando oferecer uma excelente experiência de usuário. Para alcançar esse objetivo:
 
-Foi criado um pequeno **Sistema de Design**, contendo tipografia, paleta de cores naturais e espaçamentos;
-
-A estruturação do **HTML** foi cuidadosamente planejada de forma semântica, priorizando a acessibilidade para todos os usuários;
-
-O grande diferencial do projeto está em seu estilo, que foi desenvolvido utilizando apenas **CSS** puro. Priorizamos a criação de **classes utilitárias**, o que facilita a manutenção do projeto. Além disso, foram adotadas práticas de **design responsivo** para garantir que o site se adapte perfeitamente a diferentes dispositivos, especialmente em telas menores;
-
-Para aprimorar a usabilidade em dispositivos móveis, foi desenvolvido em **JavaScript** um menu hamburguer, garantindo uma navegação intuitiva e acessível para todos os usuários.
+- Criamos um **Sistema de Design** contendo tipografia, paleta de cores naturais e espaçamentos;
+- Estruturamos o **HTML** de forma **semântica**, priorizando a **acessibilidade** para todos os usuários;
+- O destaque do projeto está no estilo, desenvolvido exclusivamente com **CSS** puro. Utilizamos **classes utilitárias** para facilitar a manutenção do projeto;
+- Implementamos práticas de **design responsivo** para garantir que o site se adapte perfeitamente a diferentes dispositivos, especialmente em telas menores;
+- Para melhorar a **usabilidade** em dispositivos móveis, criamos um menu hamburguer em **JavaScript**, proporcionando uma navegação intuitiva e acessível.
 
 ## 👨‍💻  Tecnologias
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
