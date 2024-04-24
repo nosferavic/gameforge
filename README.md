@@ -23,4 +23,4 @@ O objetivo principal do projeto foi aplicar os conhecimentos em UI/UX Design e F
 
 ## 💻  Site
 
-**<a href="nosferavic.github.io/gameforge/">GameForge</a>**
+**<a href="https://nosferavic.github.io/gameforge/">GameForge</a>**
