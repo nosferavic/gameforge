@@ -13,6 +13,7 @@ O objetivo principal do projeto foi aplicar os conhecimentos em UI/UX Design e F
 - Estruturamos o **HTML** de forma **semântica**, priorizando a **acessibilidade** para todos os usuários;
 - O destaque do projeto está no estilo, desenvolvido exclusivamente com **CSS** puro. Utilizamos **classes utilitárias** para facilitar a manutenção do projeto;
 - Implementamos práticas de **design responsivo** para garantir que o site se adapte perfeitamente a diferentes dispositivos, especialmente em telas menores;
+- O próprio site já identifica se o usuário prefere **tema claro** ou **escuro**;
 - Para melhorar a **usabilidade** em dispositivos móveis, criamos um menu hamburguer em **JavaScript**, proporcionando uma navegação intuitiva e acessível.
 
 ## 👨‍💻  Tecnologias
