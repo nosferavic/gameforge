@@ -7,7 +7,9 @@
 @import url("../css/forgejam.css");
 @import url("../css/footer.css");
 
-
+html{
+  overflow-x: hidden;
+}
 
 body,
 h1,

@@ -72,8 +72,3 @@ function scrollAnimate() {
   window.addEventListener("scroll", animaScroll);
 }
 scrollAnimate();
-
-const header = document.querySelector('#header')
-console.log(header)
-const headerHeight = header.clientHeight
-console.log(headerHeight)
