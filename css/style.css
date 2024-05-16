@@ -7,9 +7,7 @@
 @import url("../css/forgejam.css");
 @import url("../css/footer.css");
 
-html {
-  scroll-behavior: smooth;
-}
+
 
 body,
 h1,
@@ -34,6 +32,17 @@ video {
   max-width: 660px;
   height: auto;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.js .js-scroll{
+opacity: 0;
+transform: translate3d(-30px, 0, 0);
+transition: .3s;
+}
+
+.js .js-scroll.animar{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
 
 ::-webkit-scrollbar {
