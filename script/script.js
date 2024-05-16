@@ -27,24 +27,33 @@ burguerMenu();
 
 function linkSuave() {
   const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
+  const header = document.querySelector('#header');
+  const headerHeight = header.clientHeight;
+
   if (linksInternos.length) {
     function scrollSuave(event) {
       event.preventDefault();
       const href = event.currentTarget.getAttribute("href");
-      const artigos = document.querySelector(href);
+      const targetElement = document.querySelector(href);
 
-      artigos.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
+      if (targetElement) {
+        const targetPosition = targetElement.getBoundingClientRect().top;
+        const offsetPosition = targetPosition - headerHeight;
+
+        window.scrollBy({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
     }
-
     linksInternos.forEach((link) => {
       link.addEventListener("click", scrollSuave);
     });
   }
 }
 linkSuave();
+
+
 function scrollAnimate() {
   const sections = document.querySelectorAll(".js-scroll");
   const windowMetade = window.innerHeight * 0.6;
@@ -63,3 +72,8 @@ function scrollAnimate() {
   window.addEventListener("scroll", animaScroll);
 }
 scrollAnimate();
+
+const header = document.querySelector('#header')
+console.log(header)
+const headerHeight = header.clientHeight
+console.log(headerHeight)
