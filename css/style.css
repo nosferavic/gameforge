@@ -40,6 +40,10 @@ transform: translate3d(-30px, 0, 0);
 transition: .3s;
 }
 
+.js .curso-bg .js-scroll, .js .curso-bg1 .js-scroll{
+transform: translateX(30px);
+}
+
 .js .js-scroll.animar{
   opacity: 1;
   transform: translate3d(0, 0, 0);

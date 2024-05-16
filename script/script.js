@@ -45,20 +45,21 @@ function linkSuave() {
   }
 }
 linkSuave();
-function scrollAnimate(){
-const sections = document.querySelectorAll('.js-scroll');
-const windowMetade = window.innerHeight * 0.6;
+function scrollAnimate() {
+  const sections = document.querySelectorAll(".js-scroll");
+  const windowMetade = window.innerHeight * 0.6;
 
-function animaScroll(){
-  sections.forEach((section) => {
-  const sectionTop = section.getBoundingClientRect().top
-  const itSectionVisible = sectionTop - windowMetade < 0
-  if (itSectionVisible){
-    section.classList.add('animar')
-  }else
-  section.classList.remove('animar')
-})
+  if (sections.length) {
+    function animaScroll() {
+      sections.forEach((section) => {
+        const sectionTop = section.getBoundingClientRect().top;
+        const itSectionVisible = sectionTop - windowMetade < 0;
+        if (itSectionVisible) {
+          section.classList.add("animar");
+        } else section.classList.remove("animar");
+      });
+    }
+  }
+  window.addEventListener("scroll", animaScroll);
 }
-window.addEventListener('scroll', animaScroll)
-}
-scrollAnimate()
+scrollAnimate();
