@@ -26,7 +26,7 @@ function burguerMenu() {
 burguerMenu();
 
 function linkSuave() {
-  const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
+  const linksInternos = document.querySelectorAll('a[href^="#"]');
   const header = document.querySelector('#header');
   const headerHeight = header.clientHeight;
 
