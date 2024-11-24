@@ -1,5 +1,5 @@
 # 🕹  GameForge
-Hoje em dia o que mais se tem na internet são cursos de desenvolvimento, então decidi fazer o meu próprio!
+Hoje em dia o que mais se tem na internet são cursos de programação, então decidi fazer o meu próprio!
 
 <img src="./assets/preview.jpg" alt="">
 
