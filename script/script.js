@@ -65,7 +65,7 @@ function scrollAnimate() {
         const itSectionVisible = sectionTop - windowMetade < 0;
         if (itSectionVisible) {
           section.classList.add("animar");
-        } else section.classList.remove("animar");
+        }
       });
     }
   }
