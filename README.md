@@ -1,5 +1,5 @@
 # 🕹  GameForge
-Hoje em dia o que mais se tem na internet são cursos de desenvolvimento, então decidi fazer o meu próprio!
+Hoje em dia o que mais se tem na internet são cursos de programação, então decidi fazer o meu próprio!
 
 <img src="./assets/preview.jpg" alt="">
 
@@ -9,12 +9,12 @@ A **GameForge** é um curso online fictício de desenvolvimento de games e arte,
 ## 🎮  Projeto
 O objetivo principal do projeto foi aplicar os conhecimentos em UI/UX Design e Front-End, visando oferecer uma excelente experiência de usuário. Para alcançar esse objetivo:
 
-- Criamos um **Sistema de Design** contendo tipografia, paleta de cores naturais e espaçamentos;
-- Estruturamos o **HTML** de forma **semântica**, priorizando a **acessibilidade** para todos os usuários;
-- O destaque do projeto está no estilo, desenvolvido exclusivamente com **CSS** puro. Utilizamos **classes utilitárias** para facilitar a manutenção do projeto;
-- Implementamos práticas de **design responsivo** para garantir que o site se adapte perfeitamente a diferentes dispositivos, especialmente em telas menores;
+- Foi criado um **Sistema de Design** contendo tipografia, paleta de cores naturais e espaçamentos;
+- **HTML** estruturado de forma **semântica**, priorizando a **acessibilidade** para todos os usuários;
+- O destaque do projeto está no estilo, desenvolvido exclusivamente com **CSS** puro. **classes utilitárias** foram utilizadas para facilitar a manutenção do projeto;
+- Implementada práticas de **design responsivo** para garantir que o site se adapte perfeitamente a diferentes dispositivos, especialmente em telas menores;
 - O próprio site já identifica se o usuário prefere **tema claro** ou **escuro**;
-- Para melhorar a **usabilidade** em dispositivos móveis, criamos um menu hamburguer em **JavaScript**, proporcionando uma navegação intuitiva e acessível.
+- Para melhorar a **usabilidade** em dispositivos móveis, foi criado um menu hamburguer em **JavaScript**, proporcionando uma navegação intuitiva e acessível.
 
 ## 👨‍💻  Tecnologias
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
