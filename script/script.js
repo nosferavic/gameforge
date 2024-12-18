@@ -70,5 +70,14 @@ function scrollAnimate() {
     }
   }
   window.addEventListener("scroll", animaScroll);
+
+  const video = document.querySelector("video")
+  function pauseVideo(){
+    if(document.hidden){
+      video.pause()
+    }
+  }
+
+  document.addEventListener("visibilitychange", pauseVideo)
 }
 scrollAnimate();
